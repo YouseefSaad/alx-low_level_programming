@@ -5,7 +5,7 @@
 /**
  *main - assign a random number to variable n and
  *then check the last number
- *return : Always 0 (success)
+ *Return: Always 0 (Success)
  */
 int main(void)
 {
