@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 	/*
 	 *
 	 * main - prints a number and states whether it's a negative or positive or zer
