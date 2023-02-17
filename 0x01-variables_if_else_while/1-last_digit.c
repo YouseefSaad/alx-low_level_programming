@@ -3,8 +3,7 @@
 #include <stdio.h>
 
 /**
- *
- *main - assign a random number to variable n and  
+ *main - assign a random number to variable n and
  *then check the last number
  *return : Always 0 (success)
  */
@@ -17,7 +16,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	m = n % 10;
-	printf("Last digit of %d is %d ", n,m);
+	printf("Last digit of %d is %d ", n, m);
 
 	if (m > 5)
 	{
