@@ -4,9 +4,9 @@
 
 /**
  *
- * main - assign a random number to variable n and then every time executes it print the last digit 
- *
- * return : Always 0 (success)
+ *main - assign a random number to variable n and  
+ *then check the last number
+ *return : Always 0 (success)
  */
 int main(void)
 {
@@ -17,7 +17,7 @@ int main(void)
 	n = rand() - RAND_MAX / 2;
 
 	m = n % 10;
-	printf("last digit of %d is %d ", n , m);
+	printf("Last digit of %d is %d ", n,m);
 
 	if (m > 5)
 	{
