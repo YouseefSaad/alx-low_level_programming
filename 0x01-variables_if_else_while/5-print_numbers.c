@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 /**
- *main -> print the base 10 of numbers 
- *then end following by a new line 
+ *main -> print the base 10 of numbers
+ *then end following by a new line
  *Return: Always 0 (Success)
  */
 int main(void)
@@ -13,8 +13,6 @@ int main(void)
 	{
 		printf("%d", a);
 	}
-	
 	printf("\n");
-	
 	return (0);
 }
